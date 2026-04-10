@@ -1,0 +1,3 @@
+branch,selected_model,roc_auc,pr_auc
+cyber,ExtraTrees,0.9999685279307701,0.9999874397209404
+video,RandomForest,0.9999999983092214,0.9999999996290727

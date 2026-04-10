@@ -1,0 +1,20 @@
+artifact_type,filename,supports_section,purpose
+figure,video_strict_vs_full_comparison.png,Video branch ablation results,Shows the performance gap between strict feature exclusion and the full video feature set.
+figure,cyber_model_comparison.png,Cyber branch results,"Compares cyber branch models using balanced accuracy, ROC-AUC, PR-AUC, and FPR."
+figure,selected_branch_confusion_matrices.png,Branch-level model evaluation,Shows confusion matrices for the selected cyber and video models.
+figure,selected_branch_roc_curves.png,Branch-level model evaluation,Shows ROC curves for the selected cyber and video models.
+figure,selected_branch_pr_curves.png,Branch-level model evaluation,Shows precision-recall curves for the selected cyber and video models.
+figure,fusion_confusion_matrix_or.png,Fusion results,Shows the confusion matrix for the fusion model under OR-label evaluation.
+figure,fusion_risk_distribution_or.png,Fusion results,Shows fused-risk score distributions for negative and positive fusion labels.
+figure,fusion_roc_curve_or.png,Fusion results,Shows ROC curve for the fused risk score.
+figure,fusion_pr_curve_or.png,Fusion results,Shows precision-recall curve for the fused risk score.
+figure,fusion_threshold_sweep_or.png,Fusion threshold analysis,"Shows how balanced accuracy, F1, recall, and FPR vary with threshold."
+figure,top_campaign_candidates.png,Campaign reconstruction results,Summarizes top campaign candidates by size and fusion score.
+figure,top_campaign_8457_subgraph.png,Campaign reconstruction results,Visualizes the subgraph structure of the top extracted campaign.
+table,cyber_model_results.csv,Cyber branch results,Detailed cyber model comparison metrics.
+table,video_model_results_strict.csv,Video branch ablation results,Strict-ablation video model comparison metrics.
+table,video_model_results_full.csv,Video branch results,Full-feature video model comparison metrics.
+table,fusion_metrics_or.csv,Fusion results,Fusion-level evaluation metrics under OR-label definition.
+table,fusion_recommended_thresholds.csv,Fusion threshold analysis,Recommended fusion thresholds and associated metrics.
+table,campaign_candidates.csv,Campaign reconstruction results,Extracted campaign-level candidates with structural and scoring summaries.
+table,campaign_decision_summary.csv,Campaign reconstruction results,Summary of dominant campaign decision states.

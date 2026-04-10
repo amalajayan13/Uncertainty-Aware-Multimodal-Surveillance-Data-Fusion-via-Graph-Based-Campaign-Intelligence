@@ -1,0 +1,16 @@
+campaign_id,n_nodes_total,n_evidence_nodes,n_edges,n_cyber_nodes,n_video_nodes,n_hub_nodes,modality_pattern,mean_cyber_score,mean_video_score,mean_cyber_uncertainty,mean_video_uncertainty,fusion_score,fusion_uncertainty,decision_state
+8457,105,104,104,103,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+15066,105,104,104,103,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+9756,104,103,103,102,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+11431,104,103,103,102,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+23072,104,103,103,102,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+3696,103,102,102,101,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+15257,103,102,102,100,2,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+20731,103,102,102,101,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+4456,102,101,101,100,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+14145,102,101,101,100,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+26245,102,101,101,100,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+6066,101,100,100,99,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+7879,101,100,100,98,2,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+22425,101,100,100,99,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk
+379,100,99,99,98,1,1,cyber+video+hub,1.0,1.0,0.0,0.0,1.0,0.0,high_risk

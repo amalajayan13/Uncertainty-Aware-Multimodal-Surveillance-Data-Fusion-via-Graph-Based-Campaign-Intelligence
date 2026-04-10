@@ -1,0 +1,4 @@
+method,selected_model,analysis_unit,threshold,events_or_windows_detected,campaigns_detected,note
+Cyber only,ExtraTrees,event,0.6,44549,0,Cyber alert events above the cyber decision threshold.
+Video only,RandomForest,event,0.6,51919,0,Video alert events above the video decision threshold.
+Fusion,ExtraTrees+RandomForest,window,0.65,45895,196,Window-level fused detections and connected campaign candidates.

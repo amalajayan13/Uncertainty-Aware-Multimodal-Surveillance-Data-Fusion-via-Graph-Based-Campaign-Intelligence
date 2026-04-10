@@ -1,0 +1,5 @@
+branch,split,n_rows,n_features,positive_ratio
+cyber,train,133331,40,0.7792861375074064
+cyber,test,57143,40,0.7792905517736206
+video,train,147730,10,0.8194679482840317
+video,test,63313,10,0.8200843428679734

@@ -1,0 +1,8 @@
+column,dtype,missing_count,missing_pct,n_unique
+timestamp,datetime64[ns],0,0.0,211043
+camera_id,int64,0,0.0,10
+zone_id,int64,0,0.0,5
+authenticity_score,float64,0,0.0,211043
+temporal_consistency,float64,0,0.0,211043
+uncertainty_score,float64,0,0.0,211043
+suspicious_label,int64,0,0.0,2

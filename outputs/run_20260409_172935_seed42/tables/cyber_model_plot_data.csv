@@ -1,0 +1,13 @@
+model,metric,value
+ExtraTrees,balanced_accuracy,0.9980872075609915
+ExtraTrees,roc_auc,0.9999685279307701
+ExtraTrees,pr_auc,0.9999874397209404
+ExtraTrees,fpr,0.0034887408816999684
+RandomForest,balanced_accuracy,0.9980079179954983
+RandomForest,roc_auc,0.9999892784325837
+RandomForest,pr_auc,0.9999967073003224
+RandomForest,fpr,0.0036473200126863306
+LogReg,balanced_accuracy,0.9842633537669689
+LogReg,roc_auc,0.9967571082291548
+LogReg,pr_auc,0.9988043495711973
+LogReg,fpr,0.023231842689502062

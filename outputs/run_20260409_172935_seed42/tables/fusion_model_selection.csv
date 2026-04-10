@@ -1,0 +1,3 @@
+branch,selected_model,selection_basis
+cyber,ExtraTrees,"minimize FPR, then maximize balanced_accuracy, PR-AUC, ROC-AUC"
+video,RandomForest,"maximize balanced_accuracy and ROC-AUC, then minimize FPR and maximize PR-AUC"

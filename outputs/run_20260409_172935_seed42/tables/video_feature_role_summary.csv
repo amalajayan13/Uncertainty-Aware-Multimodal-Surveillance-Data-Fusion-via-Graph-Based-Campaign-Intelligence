@@ -1,0 +1,11 @@
+column,used_for_model,is_numeric_in_model,is_categorical_in_model,excluded_from_model
+camera_id,True,True,False,False
+zone_id,True,True,False,False
+authenticity_score,True,True,False,False
+temporal_consistency,True,True,False,False
+uncertainty_score,True,True,False,False
+timestamp_hour,True,True,False,False
+timestamp_minute,True,True,False,False
+timestamp_second,True,True,False,False
+timestamp_dayofweek,True,True,False,False
+timestamp_unix,True,True,False,False
