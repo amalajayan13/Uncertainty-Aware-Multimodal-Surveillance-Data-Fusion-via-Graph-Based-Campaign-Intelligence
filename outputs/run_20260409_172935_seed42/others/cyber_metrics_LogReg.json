@@ -1,0 +1,23 @@
+{
+    "title": "Cyber model - LogReg",
+    "metrics": {
+        "model": "LogReg",
+        "n_features": 40,
+        "accuracy": 0.9884500288749278,
+        "balanced_accuracy": 0.9842633537669689,
+        "precision": 0.9934093618552758,
+        "recall": 0.9917585502234398,
+        "f1": 0.9925832696543354,
+        "roc_auc": 0.9967571082291548,
+        "pr_auc": 0.9988043495711973,
+        "tn": 12319,
+        "fp": 293,
+        "fn": 367,
+        "tp": 44164,
+        "fpr": 0.023231842689502062,
+        "train_time_sec": 3.4355,
+        "predict_time_sec": 0.3028,
+        "test_rows": 57143
+    },
+    "saved_at": "2026-04-09 18:49:50"
+}

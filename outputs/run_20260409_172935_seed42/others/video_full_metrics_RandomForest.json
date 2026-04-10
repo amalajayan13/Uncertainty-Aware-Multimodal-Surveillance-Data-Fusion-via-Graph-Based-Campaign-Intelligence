@@ -1,0 +1,23 @@
+{
+    "title": "Video full model - RandomForest",
+    "metrics": {
+        "model": "RandomForest",
+        "n_features": 10,
+        "accuracy": 0.9999842054554356,
+        "balanced_accuracy": 0.9999903701706405,
+        "precision": 1.0,
+        "recall": 0.9999807403412811,
+        "f1": 0.999990370077906,
+        "roc_auc": 0.9999999983092214,
+        "pr_auc": 0.9999999996290727,
+        "tn": 11391,
+        "fp": 0,
+        "fn": 1,
+        "tp": 51921,
+        "fpr": 0.0,
+        "train_time_sec": 1.2785,
+        "predict_time_sec": 0.0796,
+        "test_rows": 63313
+    },
+    "saved_at": "2026-04-09 19:09:24"
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Fusion metrics (OR label definition)",
+    "metrics": {
+        "selected_cyber_model": "ExtraTrees",
+        "selected_video_model": "RandomForest",
+        "fusion_strategy": "weighted_mean",
+        "fusion_rows": 57143,
+        "fusion_accuracy": 0.680800797998005,
+        "fusion_balanced_accuracy": 0.8336646665085994,
+        "fusion_precision": 1.0,
+        "fusion_recall": 0.6673293330171989,
+        "fusion_f1": 0.8004769301450481,
+        "fusion_roc_auc": 0.9999996295546238,
+        "fusion_pr_auc": 0.9999999843665268,
+        "tn": 2314,
+        "fp": 0,
+        "fn": 18240,
+        "tp": 36589,
+        "fusion_fpr": 0.0,
+        "positive_rate_label_or": 0.9595051012372469,
+        "positive_rate_pred": 0.6403058992352519
+    },
+    "saved_at": "2026-04-09 19:23:56"
+}

@@ -1,0 +1,35 @@
+{
+    "active_run_id": "run_20260409_172935_seed42",
+    "cyber_source_shape": [
+        190474,
+        40
+    ],
+    "video_source_shape": [
+        211043,
+        10
+    ],
+    "cyber_train_shape": [
+        133331,
+        40
+    ],
+    "cyber_test_shape": [
+        57143,
+        40
+    ],
+    "video_train_shape": [
+        147730,
+        10
+    ],
+    "video_test_shape": [
+        63313,
+        10
+    ],
+    "test_size": 0.3,
+    "random_state": 42,
+    "stratify_cyber": true,
+    "stratify_video": false,
+    "cyber_train_positive_ratio": 0.7792861375074064,
+    "cyber_test_positive_ratio": 0.7792905517736206,
+    "video_train_positive_ratio": 0.8194679482840317,
+    "video_test_positive_ratio": 0.8200843428679734
+}

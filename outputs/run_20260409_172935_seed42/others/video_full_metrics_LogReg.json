@@ -1,0 +1,23 @@
+{
+    "title": "Video full model - LogReg",
+    "metrics": {
+        "model": "LogReg",
+        "n_features": 10,
+        "accuracy": 0.9706063525658237,
+        "balanced_accuracy": 0.9369868408834087,
+        "precision": 0.9750251456550206,
+        "recall": 0.9895034859982281,
+        "f1": 0.9822109640108971,
+        "roc_auc": 0.9912946765285452,
+        "pr_auc": 0.997997138611463,
+        "tn": 10075,
+        "fp": 1316,
+        "fn": 545,
+        "tp": 51377,
+        "fpr": 0.11552980423141077,
+        "train_time_sec": 0.3162,
+        "predict_time_sec": 0.0157,
+        "test_rows": 63313
+    },
+    "saved_at": "2026-04-09 19:09:23"
+}

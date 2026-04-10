@@ -1,0 +1,33 @@
+{
+    "active_run_id": "run_20260409_172935_seed42",
+    "n_nodes": 96664,
+    "n_edges": 18609,
+    "shared_windows_alert_intersection": 196,
+    "shared_windows_fusion_table": 196,
+    "node_type_counts": {
+        "evidence": 96468,
+        "hub": 196
+    },
+    "modality_counts": {
+        "cyber": 44549,
+        "video": 51919,
+        "hub": 196
+    },
+    "hub_decision_state_counts": {
+        "high_risk": 196
+    },
+    "n_connected_components": 78055,
+    "largest_component_size": 107,
+    "top_10_component_sizes": [
+        107,
+        106,
+        105,
+        105,
+        105,
+        104,
+        104,
+        104,
+        104,
+        103
+    ]
+}

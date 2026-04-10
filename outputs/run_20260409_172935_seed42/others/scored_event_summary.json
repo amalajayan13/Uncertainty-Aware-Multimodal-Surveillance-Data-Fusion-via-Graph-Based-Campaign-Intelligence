@@ -1,0 +1,9 @@
+{
+    "active_run_id": "run_20260409_172935_seed42",
+    "selected_cyber_model": "ExtraTrees",
+    "selected_video_model": "RandomForest",
+    "cyber_scored_rows": 57143,
+    "video_scored_rows": 63313,
+    "cyber_timestamp_source": "synthetic_sequential_fallback",
+    "video_timestamp_source": "raw_timestamp_column"
+}

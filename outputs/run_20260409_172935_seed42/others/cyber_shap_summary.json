@@ -1,0 +1,13 @@
+{
+    "active_run_id": "run_20260409_172935_seed42",
+    "selected_cyber_model": "ExtraTrees",
+    "background_samples": 200,
+    "explained_samples": 100,
+    "n_transformed_features": 888,
+    "normalized_shap_shape": [
+        100,
+        888
+    ],
+    "background_was_sparse": true,
+    "sample_was_sparse": true
+}

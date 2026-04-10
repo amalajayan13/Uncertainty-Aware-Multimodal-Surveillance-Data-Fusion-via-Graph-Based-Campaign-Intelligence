@@ -1,0 +1,23 @@
+{
+    "title": "Cyber model - RandomForest",
+    "metrics": {
+        "model": "RandomForest",
+        "n_features": 40,
+        "accuracy": 0.9989325026687433,
+        "balanced_accuracy": 0.9980079179954983,
+        "precision": 0.9989677303532157,
+        "recall": 0.9996631560036828,
+        "f1": 0.9993153221914179,
+        "roc_auc": 0.9999892784325837,
+        "pr_auc": 0.9999967073003224,
+        "tn": 12566,
+        "fp": 46,
+        "fn": 15,
+        "tp": 44516,
+        "fpr": 0.0036473200126863306,
+        "train_time_sec": 3.8538,
+        "predict_time_sec": 0.4036,
+        "test_rows": 57143
+    },
+    "saved_at": "2026-04-09 18:49:55"
+}

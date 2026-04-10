@@ -1,0 +1,11 @@
+{
+    "active_run_id": "run_20260409_172935_seed42",
+    "cyber_numeric_cols": 16,
+    "cyber_categorical_cols": 24,
+    "video_numeric_cols": 10,
+    "video_categorical_cols": 0,
+    "numeric_imputer_strategy": "median",
+    "categorical_imputer_strategy": "most_frequent",
+    "categorical_encoder": "OneHotEncoder(handle_unknown='ignore')",
+    "numeric_scaling_enabled": true
+}
