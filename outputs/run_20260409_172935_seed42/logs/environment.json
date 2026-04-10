@@ -1,0 +1,49 @@
+{
+    "experiment_name": "multimodal_surveillance_fusion",
+    "run_id": "run_20260409_172935_seed42",
+    "run_timestamp": "20260409_172935",
+    "seed": 42,
+    "repro_mode": true,
+    "device": "cuda",
+    "python_version_full": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+    "python_version_short": "3.10.20",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "system": "Windows",
+    "system_release": "10",
+    "system_version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "python_executable": "C:\\Users\\amala\\anaconda3\\envs\\deepfake\\python.exe",
+    "working_directory": "F:\\MBZUAI UAE\\7-CMES-SI",
+    "package_versions": {
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "torch": "2.11.0+cu126",
+        "sklearn": "1.7.2",
+        "matplotlib": "3.10.8",
+        "seaborn": null,
+        "scipy": "1.15.3",
+        "networkx": "3.4.2",
+        "cv2": "4.13.0",
+        "PIL": "10.2.0",
+        "shap": "0.49.1",
+        "tqdm": "4.67.3"
+    },
+    "torch_available": true,
+    "cuda_available": true,
+    "torch_version": "2.11.0+cu126",
+    "mps_available": false,
+    "gpu_count": 1,
+    "cuda_version": "12.6",
+    "cudnn_version": 91002,
+    "gpu_devices": [
+        {
+            "device_index": 0,
+            "device_name": "NVIDIA RTX A1000 Laptop GPU",
+            "total_memory_GB": 4.0,
+            "multi_processor_count": 16,
+            "major": 8,
+            "minor": 6
+        }
+    ]
+}
