@@ -11,6 +11,8 @@ Contains all outputs, v1 code, dataset used, and conda env used.
 https://drive.google.com/drive/folders/14N5OpfggSxPiw5aCMBfcWKs3eQhhPLSr?usp=drive_link
 
 ## Zenodo
+Ajayan A. amalajayan13/Uncertainty-Aware-Multimodal- Surveillance-Data-Fusion-via-Graph-Based-Campaign-
+Intelligence: v1. Zenodo; 2026. Available from: https://doi.org/10.5281/zenodo.19500945.
 
 
 
