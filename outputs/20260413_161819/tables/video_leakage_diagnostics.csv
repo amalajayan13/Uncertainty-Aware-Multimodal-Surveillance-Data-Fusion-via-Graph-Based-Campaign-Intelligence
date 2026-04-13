@@ -1,0 +1,10 @@
+feature,roc_auc
+suspicious_probability,0.9588619273275552
+motion_intensity,0.7247393244609242
+scene_density,0.6933345372512324
+hidden_incident,0.6683885072790945
+uncertainty_score,0.6384618287448012
+authenticity_score,0.621339172803444
+temporal_consistency,0.584630960121023
+camera_id,0.5340767335173422
+zone_id,0.5017748562640414
