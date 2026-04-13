@@ -1,0 +1,58 @@
+{
+  "cyber_dataset_path": "F:\\MBZUAI UAE\\7-CMES-SI\\GitHub-v2\\Datasets\\TON_IoT\\ton_iot.csv",
+  "video_dataset_path": "F:\\MBZUAI UAE\\7-CMES-SI\\GitHub-v2\\Outputs\\generated_datasets\\video_events_simulated_realistic.csv",
+  "run_directory": "F:\\MBZUAI UAE\\7-CMES-SI\\GitHub-v2\\Outputs\\20260413_161819",
+  "best_cyber_model": "RandomForest",
+  "best_video_model": "RandomForest",
+  "fusion_cyber_model": "CalibratedLogisticRegression",
+  "fusion_video_model": "RandomForest",
+  "cyber_results_top": {
+    "accuracy": 0.9947675130812172,
+    "balanced_accuracy": 0.9926076239359243,
+    "precision": 0.9968101356815527,
+    "recall": 0.9964743661718802,
+    "f1": 0.9966422226464676,
+    "roc_auc": 0.9989347508928076,
+    "pr_auc": 0.9997020753819104,
+    "fpr": 0.011259118300031715,
+    "tp": 44374,
+    "tn": 12470,
+    "fp": 142,
+    "fn": 157,
+    "model": "RandomForest"
+  },
+  "video_results_top": {
+    "accuracy": 0.7085873003626263,
+    "balanced_accuracy": 0.7148910642442665,
+    "precision": 0.7941176470588235,
+    "recall": 0.6063876330756891,
+    "f1": 0.6876705532126023,
+    "roc_auc": 0.7923314677236204,
+    "pr_auc": 0.8290560829237907,
+    "fpr": 0.17660550458715596,
+    "tp": 4158,
+    "tn": 5026,
+    "fp": 1078,
+    "fn": 2699,
+    "model": "RandomForest"
+  },
+  "fusion_metrics": {
+    "accuracy": 0.7885965589074917,
+    "balanced_accuracy": 0.8786411789770168,
+    "precision": 0.9998833819241982,
+    "recall": 0.7578891540705384,
+    "f1": 0.8622284794851166,
+    "roc_auc": 0.948952317936492,
+    "pr_auc": 0.9930247683399942,
+    "fpr": 0.0006067961165048543,
+    "tp": 8574,
+    "tn": 1647,
+    "fp": 1,
+    "fn": 2739
+  },
+  "graph_summary": {
+    "graph_nodes": 60507,
+    "graph_edges": 16108884,
+    "connected_components": 2669
+  }
+}

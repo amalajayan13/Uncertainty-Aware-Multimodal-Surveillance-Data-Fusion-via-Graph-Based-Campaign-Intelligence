@@ -1,0 +1,15 @@
+{
+  "rows": 43200,
+  "n_cameras": 10,
+  "n_zones": 5,
+  "start_timestamp": "2024-01-01 00:00:00",
+  "end_timestamp": "2024-02-29 23:58:00",
+  "label_distribution": {
+    "0": 20577,
+    "1": 22623
+  },
+  "hidden_incident_distribution": {
+    "0": 34819,
+    "1": 8381
+  }
+}
