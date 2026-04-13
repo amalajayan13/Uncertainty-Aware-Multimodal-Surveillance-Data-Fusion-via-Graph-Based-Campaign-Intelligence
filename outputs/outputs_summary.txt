@@ -1,0 +1,271 @@
+
+====================================================================================================
+Configuration
+====================================================================================================
+class_weight: balanced_subsample
+cyber_alert_threshold: 0.7
+cyber_context_col: type
+cyber_filename: ton_iot.csv
+cyber_full_path: /content/drive/MyDrive/Datasets/TON_IoT/ton_iot.csv
+cyber_subdir: Datasets/TON_IoT
+cyber_target_col: label
+cyber_test_size: 0.3
+force_fusion_cyber_model: CalibratedLogisticRegression
+force_fusion_video_model: None
+force_regenerate_video_dataset: True
+fusion_confidence_cap: 0.8
+fusion_uncertainty_penalty: 0.3
+fusion_window_seconds: 120
+graph_max_similarity_sample: 5000
+graph_similarity_threshold: 0.92
+graph_temporal_edge_seconds: 60
+max_cyber_rows: None
+max_depth: 12
+max_video_rows: 120000
+min_samples_leaf: 8
+models_to_run: ['LogisticRegression', 'CalibratedLogisticRegression', 'RandomForest', 'ExtraTrees']
+n_estimators: 200
+random_state: 42
+realistic_video_filename: video_events_simulated_realistic.csv
+realistic_video_full_path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\generated_datasets\video_events_simulated_realistic.csv
+strict_identifier_exclusion: True
+video_alert_threshold: 0.65
+video_correlated_burst_prob: 0.08
+video_days: 60
+video_event_freq: 2min
+video_hidden_incident_rate: 0.18
+video_label_flip_prob: 0.04
+video_n_cameras: 10
+video_n_zones: 5
+video_test_size: 0.3
+video_use_chronological_split: True
+window_high_risk_threshold: 0.45
+window_uncertainty_threshold: 0.45
+Saved json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161228\others\config.json
+
+====================================================================================================
+Load cyber dataset
+====================================================================================================
+
+====================================================================================================
+Configuration
+====================================================================================================
+class_weight: balanced_subsample
+cyber_alert_threshold: 0.7
+cyber_context_col: type
+cyber_filename: ton_iot.csv
+cyber_full_path: None
+cyber_subdir: Datasets/TON_IoT
+cyber_target_col: label
+cyber_test_size: 0.3
+force_fusion_cyber_model: CalibratedLogisticRegression
+force_fusion_video_model: None
+force_regenerate_video_dataset: True
+fusion_confidence_cap: 0.8
+fusion_uncertainty_penalty: 0.3
+fusion_window_seconds: 120
+graph_max_similarity_sample: 5000
+graph_similarity_threshold: 0.92
+graph_temporal_edge_seconds: 60
+max_cyber_rows: None
+max_depth: 12
+max_video_rows: 120000
+min_samples_leaf: 8
+models_to_run: ['LogisticRegression', 'CalibratedLogisticRegression', 'RandomForest', 'ExtraTrees']
+n_estimators: 200
+random_state: 42
+realistic_video_filename: video_events_simulated_realistic.csv
+realistic_video_full_path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\generated_datasets\video_events_simulated_realistic.csv
+strict_identifier_exclusion: True
+video_alert_threshold: 0.65
+video_correlated_burst_prob: 0.08
+video_days: 60
+video_event_freq: 2min
+video_hidden_incident_rate: 0.18
+video_label_flip_prob: 0.04
+video_n_cameras: 10
+video_n_zones: 5
+video_test_size: 0.3
+video_use_chronological_split: True
+window_high_risk_threshold: 0.45
+window_uncertainty_threshold: 0.45
+Saved json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\others\config.json
+
+====================================================================================================
+Load cyber dataset
+====================================================================================================
+resolved_cyber_path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Datasets\TON_IoT\ton_iot.csv
+cyber_shape: (211043, 44)
+cyber_memory_mb: 350.24
+
+====================================================================================================
+Audit cyber dataset
+====================================================================================================
+cyber_duplicates: 20569
+cyber_missing_total: 0
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\cyber_audit_summary.csv
+cyber_shape_after_drop_duplicates: (190474, 44)
+cyber_label_distribution: {0: 42040, 1: 148434}
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\cyber_label_distribution.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_cyber_label_distribution.png
+
+====================================================================================================
+Create or load realistic video dataset
+====================================================================================================
+Generating realistic video dataset from a hidden-state process...
+video_path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\generated_datasets\video_events_simulated_realistic.csv
+video_generation_meta: {
+  "rows": 43200,
+  "n_cameras": 10,
+  "n_zones": 5,
+  "start_timestamp": "2024-01-01 00:00:00",
+  "end_timestamp": "2024-02-29 23:58:00",
+  "label_distribution": {
+    "0": 20577,
+    "1": 22623
+  },
+  "hidden_incident_distribution": {
+    "0": 34819,
+    "1": 8381
+  }
+}
+Saved json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\others\video_generation_meta.json
+
+====================================================================================================
+Audit realistic video dataset
+====================================================================================================
+video_shape: (43200, 11)
+video_duplicates: 0
+video_missing_total: 0
+video_target_col: suspicious_label
+video_label_distribution: {0: 20577, 1: 22623}
+video_hidden_incident_distribution: {0: 34819, 1: 8381}
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_label_distribution.csv
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_hidden_incident_distribution.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_video_label_distribution.png
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_video_hidden_incident_distribution.png
+
+====================================================================================================
+Video leakage diagnostics
+====================================================================================================
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_leakage_diagnostics.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_video_leakage_diagnostics_roc_auc.png
+
+====================================================================================================
+Cyber feature preparation
+====================================================================================================
+cyber_feature_shape: (190474, 30)
+cyber_numeric_features: 10
+cyber_categorical_features: 20
+cyber_dropped_columns: ['dns_query', 'dst_bytes', 'dst_ip', 'dst_ip_bytes', 'dst_pkts', 'http_uri', 'label', 'src_bytes', 'src_ip', 'src_ip_bytes', 'src_pkts', 'ssl_issuer', 'ssl_subject', 'type']
+
+====================================================================================================
+Video feature preparation
+====================================================================================================
+video_feature_shape: (43200, 12)
+video_ablation_shape: (43200, 9)
+
+====================================================================================================
+Cyber split summary
+====================================================================================================
+Xc_train_shape: (133331, 30)
+Xc_test_shape: (57143, 30)
+cyber_numeric_features: 10
+cyber_categorical_features: 20
+
+====================================================================================================
+Video split summary
+====================================================================================================
+Xv_train_shape: (30239, 12)
+Xv_test_shape: (12961, 12)
+video_train_start: 2024-01-01 00:00:00
+video_train_end: 2024-02-11 23:56:00
+video_test_start: 2024-02-11 23:58:00
+video_test_end: 2024-02-29 23:58:00
+
+====================================================================================================
+Train cyber models
+====================================================================================================
+cyber_LogisticRegression: {'accuracy': 0.9850550373624066, 'balanced_accuracy': 0.979300264269588, 'precision': 0.9912053802379721, 'recall': 0.9896027486470099, 'f1': 0.9904034161141702, 'roc_auc': 0.9923911324940159, 'pr_auc': 0.9973867895226883, 'fpr': 0.03100222010783381, 'tp': 44068, 'tn': 12221, 'fp': 391, 'fn': 463, 'model': 'LogisticRegression'}
+cyber_CalibratedLogisticRegression: {'accuracy': 0.9850725373186567, 'balanced_accuracy': 0.9792830757532627, 'precision': 0.9911834825244029, 'recall': 0.9896476611798523, 'f1': 0.9904149764588226, 'roc_auc': 0.9923191324904264, 'pr_auc': 0.997353133881103, 'fpr': 0.03108150967332699, 'tp': 44070, 'tn': 12220, 'fp': 392, 'fn': 461, 'model': 'CalibratedLogisticRegression'}
+cyber_RandomForest: {'accuracy': 0.9947675130812172, 'balanced_accuracy': 0.9926076239359243, 'precision': 0.9968101356815527, 'recall': 0.9964743661718802, 'f1': 0.9966422226464676, 'roc_auc': 0.9989347508928076, 'pr_auc': 0.9997020753819104, 'fpr': 0.011259118300031715, 'tp': 44374, 'tn': 12470, 'fp': 142, 'fn': 157, 'model': 'RandomForest'}
+cyber_ExtraTrees: {'accuracy': 0.9851425371436572, 'balanced_accuracy': 0.981089820557338, 'precision': 0.9925578458346489, 'recall': 0.9883451977274258, 'f1': 0.9904470424088305, 'roc_auc': 0.9962656299050748, 'pr_auc': 0.998894716490956, 'fpr': 0.026165556612749764, 'tp': 44012, 'tn': 12282, 'fp': 330, 'fn': 519, 'model': 'ExtraTrees'}
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\cyber_model_results.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_cyber_model_comparison.png
+
+====================================================================================================
+Train video models
+====================================================================================================
+video_LogisticRegression: {'accuracy': 0.7094360003086182, 'balanced_accuracy': 0.7141369750440137, 'precision': 0.7763275522975147, 'recall': 0.6332215254484469, 'f1': 0.6975100401606426, 'roc_auc': 0.7950874263244398, 'pr_auc': 0.828760360571893, 'fpr': 0.2049475753604194, 'tp': 4342, 'tn': 4853, 'fp': 1251, 'fn': 2515, 'model': 'LogisticRegression'}
+video_RandomForest: {'accuracy': 0.7085873003626263, 'balanced_accuracy': 0.7148910642442665, 'precision': 0.7941176470588235, 'recall': 0.6063876330756891, 'f1': 0.6876705532126023, 'roc_auc': 0.7923314677236204, 'pr_auc': 0.8290560829237907, 'fpr': 0.17660550458715596, 'tp': 4158, 'tn': 5026, 'fp': 1078, 'fn': 2699, 'model': 'RandomForest'}
+video_ExtraTrees: {'accuracy': 0.7033407916055859, 'balanced_accuracy': 0.7138455890040523, 'precision': 0.8503955328059563, 'recall': 0.5330319381653784, 'f1': 0.6553115194979829, 'roc_auc': 0.7969851388341234, 'pr_auc': 0.8317825651359412, 'fpr': 0.10534076015727392, 'tp': 3655, 'tn': 5461, 'fp': 643, 'fn': 3202, 'model': 'ExtraTrees'}
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_model_results.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_video_model_comparison.png
+
+====================================================================================================
+Video ablation study
+====================================================================================================
+video_ablation_LogisticRegression: {'accuracy': 0.6977085101458221, 'balanced_accuracy': 0.7037010733786311, 'precision': 0.7774211818010195, 'recall': 0.600554178212046, 'f1': 0.6776369919368109, 'roc_auc': 0.7759543585674855, 'pr_auc': 0.8160542684745018, 'fpr': 0.19315203145478374, 'tp': 4118, 'tn': 4925, 'fp': 1179, 'fn': 2739, 'model': 'LogisticRegression'}
+video_ablation_RandomForest: {'accuracy': 0.6943908649023995, 'balanced_accuracy': 0.7020678087521319, 'precision': 0.7943089430894309, 'recall': 0.5699285401779204, 'f1': 0.6636664685403753, 'roc_auc': 0.7738499569276194, 'pr_auc': 0.8151879319006368, 'fpr': 0.1657929226736566, 'tp': 3908, 'tn': 5092, 'fp': 1012, 'fn': 2949, 'model': 'RandomForest'}
+video_ablation_ExtraTrees: {'accuracy': 0.6949309466862125, 'balanced_accuracy': 0.7037206408734433, 'precision': 0.8106141664883373, 'recall': 0.5524281755869914, 'f1': 0.6570685169124024, 'roc_auc': 0.7780242124692582, 'pr_auc': 0.819185166229311, 'fpr': 0.14498689384010485, 'tp': 3788, 'tn': 5219, 'fp': 885, 'fn': 3069, 'model': 'ExtraTrees'}
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_ablation_results.csv
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_full_vs_ablation_comparison.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_video_full_vs_ablation_balanced_accuracy.png
+
+====================================================================================================
+Selected models
+====================================================================================================
+best_cyber_model: RandomForest
+best_video_model: RandomForest
+fusion_cyber_model: CalibratedLogisticRegression
+fusion_video_model: RandomForest
+
+====================================================================================================
+Test event tables
+====================================================================================================
+cyber_test_events: (57143, 5)
+video_test_events: (12961, 7)
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\cyber_test_events_sample.csv
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\video_test_events_sample.csv
+
+====================================================================================================
+Fusion window construction
+====================================================================================================
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\fusion_window_table.csv
+
+====================================================================================================
+Fusion metrics
+====================================================================================================
+fusion_metrics: {'accuracy': 0.7885965589074917, 'balanced_accuracy': 0.8786411789770168, 'precision': 0.9998833819241982, 'recall': 0.7578891540705384, 'f1': 0.8622284794851166, 'roc_auc': 0.948952317936492, 'pr_auc': 0.9930247683399942, 'fpr': 0.0006067961165048543, 'tp': 8574, 'tn': 1647, 'fp': 1, 'fn': 2739}
+Saved json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\others\fusion_metrics.json
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_fusion_adjusted_score_distribution.png
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\fusion_window_state_counts.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_fusion_window_states.png
+
+====================================================================================================
+Build heterogeneous temporal graph
+====================================================================================================
+graph_summary: {'graph_nodes': 60507, 'graph_edges': 16108884, 'connected_components': 2669}
+Saved json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\others\graph_summary.json
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_graph_summary.png
+
+====================================================================================================
+Campaign candidates
+====================================================================================================
+Saved table: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\tables\campaign_candidates.csv
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_campaign_size_distribution.png
+
+====================================================================================================
+Final summary
+====================================================================================================
+Cyber dataset path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Datasets\TON_IoT\ton_iot.csv
+Video dataset path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\generated_datasets\video_events_simulated_realistic.csv
+Run directory: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819
+Best cyber model: RandomForest
+Best video model: RandomForest
+Fusion cyber model: CalibratedLogisticRegression
+Fusion video model: RandomForest
+Saved json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\others\run_summary.json
+saved_summary_json: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\others\run_summary.json
+outputs_summary_path: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\outputs_summary.txt
+Saved figure: F:\MBZUAI UAE\7-CMES-SI\GitHub-v2\Outputs\20260413_161819\figures\fig_campaign_size_distribution.png
