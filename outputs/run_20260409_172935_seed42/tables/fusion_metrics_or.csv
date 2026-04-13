@@ -1,2 +1,0 @@
-selected_cyber_model,selected_video_model,fusion_strategy,fusion_rows,fusion_accuracy,fusion_balanced_accuracy,fusion_precision,fusion_recall,fusion_f1,fusion_roc_auc,fusion_pr_auc,tn,fp,fn,tp,fusion_fpr,positive_rate_label_or,positive_rate_pred
-ExtraTrees,RandomForest,weighted_mean,57143,0.680800797998005,0.8336646665085994,1.0,0.6673293330171989,0.8004769301450481,0.9999996295546238,0.9999999843665268,2314,0,18240,36589,0.0,0.9595051012372469,0.6403058992352519

@@ -1,3 +1,0 @@
-branch,selected_model,tn,fp,fn,tp
-cyber,ExtraTrees,12568,44,15,44516
-video,RandomForest,11391,0,1,51921

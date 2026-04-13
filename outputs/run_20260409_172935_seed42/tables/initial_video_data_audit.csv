@@ -1,2 +1,0 @@
-dataset,n_rows,n_cols,duplicates,duplicate_pct,total_missing_values,missing_pct_all_cells,memory_usage_mb,n_numeric_cols,n_object_cols,n_datetime_cols,n_constant_cols,valid_timestamp_count,timestamp_min,timestamp_max,timestamp_monotonic,configured_label_col,effective_label_col
-video,211043,7,0,0.0,0,0.0,11.271,6,0,1,0,211043,2024-01-01 00:00:00,2024-05-26 13:22:00,False,label,suspicious_label
